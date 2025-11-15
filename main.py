@@ -18,7 +18,7 @@ else:
     print("uhhh... no.")
 
 answer = input("What sound does a horse make? ")
-if answer.lower()  == ("NEIGH") or ("neigh"):
+if answer.lower()  == ("neigh"):
     print("You betcha!")
     score += 1
 else:
@@ -39,3 +39,4 @@ else:
     print("girl...")
 
 print("You got " + str(score) + " questions correct!")
+print("You got " + str((score / 4) * 100) + "%.")
